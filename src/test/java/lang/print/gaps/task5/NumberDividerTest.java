@@ -11,8 +11,8 @@ class NumberDividerTest extends BaseIOTest {
     void dividerDividesCorrectly() {
         NumberDivider divider = new NumberDivider();
 
-        divider.divide(19);
+        divider.divide(20);
 
-        assertEquals("3.8\n", updateLineSpliterators(outContent.toString()));
+        assertEquals("4.0\n", updateLineSpliterators(outContent.toString()));
     }
 }
